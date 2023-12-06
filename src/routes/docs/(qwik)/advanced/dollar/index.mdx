@@ -294,7 +294,7 @@ const Greeter_onMount = () => {
 ```
 
 ```tsx title="chunk-b.js"
-const Greeter_onRender = () => <span>Hello World!</span>;
+const Greeter_onRender = () => <div>Hello World!</div>;
 ```
 
 The above is for simple cases where the extracted function closure does not capture any variables. Let's look at a more complicated case where the extracted function closure lexically captures variables.
